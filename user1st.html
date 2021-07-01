@@ -1,0 +1,102 @@
+<html>
+<title></title>
+<style>
+div.footer{
+  position: fixed;
+  bottom: 0;
+  top: 550;
+  width: 100%;
+}
+
+    ul.abc {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333333;
+    position: relative;
+    top: -10px;
+}
+
+h1 {
+  font-family: 'Impact';
+	letter-spacing: 5px;
+  text-align:center;
+  color:#ffffff;
+  font-size: 80px;
+  font-weight:300;
+  margin:60px 0 10px;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+ul.ABC{
+    list-style-type: none;
+     text-align: center;
+}
+li.abc{
+    text-align: center;
+}
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+button1 {
+    border-radius: 8px;
+    background-color: #A93226;
+    color: white;
+    padding: 10px 14px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+.container {
+    padding: 16px;
+}p{
+  color: white;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  align-content: center;
+  width: 100%;
+}
+select{
+  align-content: center;
+  text-align: center;
+}
+</style>
+<body background = "suru.jpg">
+  <ul class="abc">
+                   <li><a href="user1st.html">HOME</a></li>
+                   <li><a href="schedule_u.php">SCHEDULES</a></li>
+                   <li><a href="rank_u.php">RANKINGS</a></li>
+                   <li><a href="stadium_u.php">STADIUMS</a></li>
+                   <li><a href="cricket_boards_u.php">CRICKET BOARDS</a></li>
+                 </ul>
+        <form action="player_search_user.php" method="post">
+            <div class="container" style="text-align:center; font-family:Times New Roman;">
+              <h1>CRICSTATS</h1><br><br><br><br><br>
+            <p style="color text-align: center;font-size: 30;  color: white;"; > SEARCH FOR PLAYER <br><br> <input type="text" placeholder="Enter Name"  name="playername" style="width: 300;height:30;">
+                <br><br><input type="submit" name="submit"><br><br><br><br><br>
+        <button1 style="float: right;" type = "submit" class="btn btn2" onclick="window.location.href='login.html';">LOGOUT</a></button1>
+
+</body>
+</html>
